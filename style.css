@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hero h1{
+    margin-bottom: 40px;
+    font-weight: 500;
+    color: white;
+}
+.signup-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+}
+.left-box{
+    padding: 50px;
+    flex-basis: 50%;
+    background-color: #6b00d5;
+
+}
+.input-box{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px;
+    border:1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    background: transparent;
+
+}
+::placeholder{
+    color: #fff;
+}
+
+input[type=checkbox]{
+    margin-top: 30px;
+}
+.left-box button{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+}
+.left-box button:hover{
+    font-size: 500;
+    background-color: #000;
+    color: #fff;
+
+}
+.left-box button span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s ;
+}
+.left-box button:hover span{
+ width: 30px;
+}
